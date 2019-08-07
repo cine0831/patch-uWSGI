@@ -106,17 +106,15 @@ make를 하기이전에 CFLAGS 값을 지정하여 빌드를 하면 해결된다
 ```
 ```
 int in_jail = 0;
-```
-```
+
 -#if defined(__linux__) && !defined(OBSOLETE_LINUX_KERNEL)
-```
+
 - if (uwsgi.unshare && !uwsgi.reloads) {
 -
 - if (unshare(uwsgi.unshare)) {
 - uwsgi_error("unshare()");
 - exit(1);
 - }
-
 
 - else {
 - uwsgi_log("[linux-namespace] applied unshare()
@@ -169,5 +167,5 @@ mask: %d\n", uwsgi.unshare2);
 
 if (uwsgi.refork_as_root) {
 uwsgi_log("re-fork()ing...\n");
-
+```
 
