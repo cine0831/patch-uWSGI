@@ -99,7 +99,7 @@ make를 하기이전에 CFLAGS 값을 지정하여 빌드를 하면 해결된다
 [http://uwsgi-docs.readthedocs.io/en/latest/Namespaces.html](http://uwsgi-docs.readthedocs.io/en/latest/Namespaces.html)
 
 ```
-[root@xxx_que0004 sdev_src]# cat uwsgi_2.0.17_util.c.patch
+[root@src]# cat uwsgi_2.0.17_util.c.patch
 --- core/utils.c 2018-02-27 03:34:40.000000000 +
 +++ core/utils.c.patch 2018-06-12 15:08:34.000000000 +
 @@ -338,29 +338,6 @@
