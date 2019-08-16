@@ -4,7 +4,7 @@ patch Python uWSGI(flask) for legacy platform
 
 # platform
 
-※ 이문서는 EC솔루션의 Fedora Core 3, CentOS 4 그리고 5를 기준으로 작성된 문서이며, CentOS 6이상의 platform에서는 아래의 오류를
+※ 이문서는 Fedora Core 3, CentOS 4 그리고 5를 기준으로 작성된 문서이며, CentOS 6이상의 platform에서는 아래의 오류를
 해결하기 귀한 과정이 생략된다.
 
 python uwsgi 2.0.17을 CentOS-5(EL5) 이하에서 build를 하면 되면 2가지 오류를 만나게 된다.
